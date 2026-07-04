@@ -1,0 +1,63 @@
+.table-block-wrapper,
+.table-block-container {
+  width: 100%;
+  overflow-x: auto;
+}
+
+.table-block-title {
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.table-block-info {
+  margin-bottom: 1rem;
+  font-size: 0.95rem;
+  color: var(--text-color, #333);
+}
+
+.table-block-info a {
+  color: var(--link-color, #0066cc);
+  text-decoration: underline;
+}
+
+.table-block-status {
+  padding: 1rem;
+  color: var(--text-color, #333);
+  font-size: 0.95rem;
+  background: var(--section-background, #f9f9f9);
+  border: 1px solid var(--border-color, #ddd);
+  border-radius: 0.5rem;
+}
+
+.json-table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 560px;
+  font-size: 0.95rem;
+}
+
+.json-table th,
+.json-table td {
+  padding: 0.75rem 0.9rem;
+  border: 1px solid var(--border-color, #ddd);
+  text-align: left;
+  vertical-align: top;
+}
+
+.json-table th {
+  background: var(--table-header-background, #f1f5f9);
+  font-weight: 700;
+}
+
+.json-table tr:nth-child(even) td {
+  background: var(--table-row-background, #fff);
+}
+
+.json-table tr:nth-child(odd) td {
+  background: var(--table-row-alt-background, #fdfdfd);
+}
+
+.json-table td {
+  white-space: pre-wrap;
+  word-break: break-word;
+}
